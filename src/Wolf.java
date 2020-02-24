@@ -10,6 +10,6 @@ public class Wolf implements Runner {
 
     @Override
     public String toString() {
-        return "Wolf speed is"+ WOLF_SPEED;
+        return super.toString()+" Wolf speed is"+ WOLF_SPEED;
     }
 }
