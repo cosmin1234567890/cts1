@@ -10,6 +10,6 @@ public class Grizzly extends Bear {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Grizzly speed is "+ GRIZZLY_SPEED;
     }
 }

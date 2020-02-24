@@ -1,10 +1,15 @@
 public class PolarBear extends  Bear {
-    public static final int POLAR_BEAR_SPEED=4;
+     private static final int POLAR_BEAR_SPEED=4;
     @Override
     public int getSpeed() {
         return POLAR_BEAR_SPEED;
     }
     PolarBear(){
 
+    }
+
+    @Override
+    public String toString() {
+        return "PolarBear speed is"+ POLAR_BEAR_SPEED;
     }
 }
